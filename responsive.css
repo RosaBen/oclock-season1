@@ -9,3 +9,22 @@
     max-width: 1224px;
   }
 } */
+
+@media screen and (min-width: 600px) {
+  #container {
+    max-width: var(--max-width-mobile-600);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* background-color: white; */
+  }
+
+  #noir {
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  #vert {
+    grid-row: 1;
+    grid-column: 1;
+  }
+}
