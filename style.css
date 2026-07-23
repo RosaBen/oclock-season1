@@ -26,13 +26,14 @@ body {
 
 :root {
   --max-width-mobile: 360px;
-  --max-width-mobile-600: 600px
-    /* --max-width-tablet: 900px;
+  --max-width-mobile-600: 600px;
+  --max-width-tablet: 900px;
+  /* 
   --max-width-desktop: 1224px;
   --width-aside-tablet: calc((884px / 3));
   --width-gallery-tablet: calc((884px / 3) * 2);
   --width-aside-desktop: 300px;
-  --width-gallery-desktop: 900px; */;
+  --width-gallery-desktop: 900px; */
 }
 
 /* Footer */
